@@ -4,7 +4,8 @@
   display: flex;
   justify-content: space-between;
 }
-.navBarCities a {
+
+.navBarCities > span {
   color: #79b4b7;
   line-height: 40px;
   flex-grow: 1;
@@ -13,27 +14,27 @@
   transition: all 250ms ease-in-out;
 }
 
-.navBarCities span {
+.navBarCities span:not(.navBarCities > span) {
   position: absolute;
   right: 10px;
   bottom: 0px;
   transition: all 250ms ease-in-out;
 }
-.navBarCities a.choosenBigBar {
+.navBarCities > span.choosenBigBar {
   /* .choosen JS */
   cursor: default;
   background-color: #fefbf3;
   color: #9d9d9d;
   font-weight: 600;
 }
-.navBarCities a.choosenBigBar span {
+.navBarCities > span.choosenBigBar span {
   right: 40px;
 }
 
-.navBarCities a:not(.choosenBigBar):hover {
+.navBarCities > span:not(.choosenBigBar):hover {
   background-color: #79b4b7;
   color: #fefbf3;
 }
-.navBarCities a:not(.choosenBigBar):hover > span {
+.navBarCities > span:not(.choosenBigBar):hover > span {
   right: 40px;
 }

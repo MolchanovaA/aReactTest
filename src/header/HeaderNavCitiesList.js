@@ -4,7 +4,7 @@ import "./HeaderNavCitiesListStyles.css";
 export default function HeaderNavCitiesList() {
   return (
     <nav class="navBarCities">
-      <span className="city_1 choosenBigBar">
+      <span className="city_1 choosenBigBar test">
         <span className="defaultCity">Odessa</span>
       </span>
       <span className="city_2">
