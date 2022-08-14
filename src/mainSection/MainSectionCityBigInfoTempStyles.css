@@ -1,0 +1,9 @@
+.temInfo {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+}
+.temInfo h2 {
+  font-size: 13px;
+}

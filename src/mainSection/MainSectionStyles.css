@@ -1,0 +1,7 @@
+.mainCity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 200px;
+  background-color: green;
+}

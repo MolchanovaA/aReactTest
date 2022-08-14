@@ -1,0 +1,12 @@
+form {
+  /* background-color: rgb(209, 52, 52); */
+  padding: 10px;
+}
+input[type="text"] {
+  color: #79b4b7;
+  border: 1px solid #79b4b7;
+  background-color: #fefbf3;
+  padding: 0 3px;
+  width: 100%;
+  max-width: 150px;
+}
